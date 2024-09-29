@@ -37,10 +37,10 @@ body {
   font-size: 0.7rem;
 }
 
- strong {
-  color:white
-}
-
 .about-page {
   text-align: center;
+}
+
+.strong {
+  color: rgb(255, 0, 0);
 }
