@@ -38,9 +38,6 @@ body {
 }
 
 .about-page {
+  color:white;
   text-align: center;
-}
-
-.strong {
-  color: rgb(255, 0, 0);
 }
