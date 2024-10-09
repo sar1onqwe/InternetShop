@@ -8,14 +8,14 @@ from goods.models import Categories
 def index(request):
 
     context = {
-        'title': 'Home',
+        'title': 'Главная страница',
         'content': 'Главная страница магазина',
     }
     return render(request, 'main/index.html', context)
 
 def about(request):
     context = {
-        'title': 'Home',
+        'title': 'О нас',
         'content': 'Главная страница магазина',
         'about': 'Мы лучшие в своем деле!)'
     }

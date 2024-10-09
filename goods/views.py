@@ -29,6 +29,7 @@ def catalog(request, category_slug=None):
 
 
     context = {
+        'title': 'Магазин',
         'goods': current_page,
         'slug_url': category_slug
     }
@@ -39,6 +40,7 @@ def product(request, product_slug):
     product = Products.objects.get(slug=product_slug)
 
     context = {
+        'title': 'Продукт',
         'product': product,
     }
 
