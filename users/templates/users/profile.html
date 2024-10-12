@@ -87,9 +87,11 @@
                             {% include "carts/includes/included_cart.html" %}
                         <!-- Конец разметки корзины -->
                     </div>
+                    {% if carts %}
                     <a class="btn btn-dark" href="../orders/create_order.html">
                         Оформить заказ
                     </a>
+                    {% endif %}
                 </div>
             </div>
 
@@ -158,7 +160,6 @@
                                                     <td>2</td>
                                                     <td>30.00 $</td>
                                                     <td>60.00 $</td>
-                                                    
                                                 </tr>
                                             </tbody>
                                         </table>
